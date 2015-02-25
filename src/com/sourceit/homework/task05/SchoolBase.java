@@ -5,10 +5,10 @@ package com.sourceit.homework.task05;
  */
 public class SchoolBase {
     public static void main(String[] args) {
-        Person p1= new Person(23, "Vasya", "men");
-        Teacher t1 = new Teacher( "Olga",35,"women",100,"History");
-        Student s1= new Student("Vasya", 23,"men","23265jk",50);
-        CollegeStudent c1= new CollegeStudent("Ric",26,"men","2365y",3.5, 5 ,"c hemistry" );
+        Person p1= new Person(27, "Coach Bob", "men");
+        Teacher t1 = new Teacher( 35,"Duke Java","men",5000,"Computer Science");
+        Student s1= new Student(23,"Lynne Brooke", "women","HS95129",3.5);
+        CollegeStudent c1= new CollegeStudent(18, "Ima Frosh","women","USB123", 4.0, 1, "English" );
 
         Person p[]= {p1,t1,s1,c1} ;
 

@@ -4,10 +4,11 @@ package com.sourceit.homework.task05;
  * Created by judge on 25.02.2015.
  */
 public class Teacher extends Person {
-            double salary;
+
+    double salary;
         String subject;
 
-    Teacher(String name, int age, String gender, double salary, String subject) {
+    Teacher(int age, String name,  String gender, double salary, String subject) {
         super(age, name, gender);
         setSalary(salary);
         setSubject(subject);

@@ -7,7 +7,7 @@ public class Student extends Person {
     double gpa;
     String idNumber;
 
-    Student(String name, int age, String gender, String idNumber, double gpa) {
+    Student(int age, String name,  String gender, String idNumber, double gpa) {
         super(age, name, gender);
         setIdNumber(idNumber);
         setGpa(gpa);
